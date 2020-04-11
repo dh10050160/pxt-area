@@ -12,7 +12,7 @@ namespace areaCalculator {
 	//% base.min=0 base.max=100 base.defl=0 height.min=0 height.max=100 height.defl=0
 	//% weight=100
 	export function areaOfTriangle(base: number, height: number, myOpt: numOption): number {
-		if (myOpt == numOption.float)
+	if (myOpt == numOption.float)
 		return base * height / 2;
 	else
 		return Math.round(base * height / 2);
